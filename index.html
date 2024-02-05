@@ -1,32 +1,402 @@
 <!DOCTYPE html>
-<html>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
-<body>
-    <div class="header">
-        <div class="header-title">
-            <div class="header-title-text">Michael Guarrasi</div>
-            <div class="header-title-text">Software Developer</div>
+    <title>Michael Guarrasi's Portfolio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>Michael Guarrasi</h4>
+              <span>Software Engineer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Skills</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/michael-guarrasi-5a1b36224/"><i class="fa fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="header-right-side">
-            <div class="header-selection">Work</div>
-            <div class="header-selection">Education</div>
-            <div class="header-selection" onclick="scriptTest()">Projects</div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >I am currently a senior computer science student at Stony Brook University. Looking for any internship or full time job opportunities.</span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Speciality in Python, Web Dev, and Game Dev</h4>
+                  <p>
+                    WIP
+                  </p>
+                  <!--<div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>!-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Capable of self-learning new technologies</h4>
+                  <p>
+                    I have created projects on my own that use technologies not taught at Stony Brook University. These projects
+                    include 2d and 3d Unity games using the C# language, full-stack websites using a PHP and SQL backend, and more.
+                  </p>
+                  <!--<div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>!-->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/right-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Skills</h2>
+            <div class="line-dec"></div>
+            <span
+              >In my years at Stony Brook University, I have learned many languages and technologies. These are some of the skills and languages
+              I feel represent me best.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  What I have the most experience in is web development. Many of my personal projects have been based on the MERN stack.
+
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Creative Ideas WIP</h4>
+                <p>
+                  WIP
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Game Development</h4>
+                <p>
+                  Games have always been a passion and hobby of mine, and I have spent some months working on a game that will soon be released on the popular platform 'Steam'.
+                  
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>WIP</h4>
+                <p>
+                  WIP
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Here are some examples of my work from the past, includes school projects and personal projects</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Web Dev"
+                    name="isotope-filter"
+                  />
+                  <span>Web Dev</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Game Dev"
+                    name="isotope-filter"
+                  />
+                  <span>Game Dev</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Misc"
+                    name="isotope-filter"
+                  />
+                  <span>Misc</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="Web Dev">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/tileslate_example.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/tileslate_example.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Senior Capstone Project "Tileslate"</h4>
+                      <span>Tilemap creator website, where users could collaborate on projects and download to use in other programs</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Game Dev">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/tp_early_example.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-02.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Unity 3D Game Early Example</h4>
+                      <span>An early example of the game I'm developing, where most of the features are done but artwork is not yet finished.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Game Dev">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/pkr_example.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/pkr_example.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Pokemon Spinoff</h4>
+                      <span>A 2D Pokemon spinoff I was working on before I decided to start on a 3D game instead.</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-04.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Item Fourth</h4>
+                      <span>WIP</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>WIP</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>WIP</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >Please email me at michaelguarrasi@gmail.com.<br><br>
+              
+              Or message me on LinkedIn - click the icon on the left to go there.</span
+            >
+          </div>
+        </div>
+      </section>
     </div>
 
-    <div class="page-body">
-        <div class="about-me">
-            <h1>About Me</h1>
-            <div>I am a student at Stony Brook University that enjoys gaming, watching shows, and programming on the side. Adding more text here for yuadhfuoasdgjbhfasuidgohgfauiskdugi.</div>
-            <div>My greatest programming passion is web development</div>
-        </div>
-        <div class="my-work">
-            <h1>My Best Work</h1>
-            <h3>Senior Group Project</h3>
-            <img src="tileslate_example.png" class="ts-img" width="700" height="612">
-        </div>
-    </div>
-</body>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
 </html>
